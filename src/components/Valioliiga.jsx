@@ -21,6 +21,9 @@ export default function Valioliiga() {
       <table>
         <thead>
           <tr>
+            <th>Valioliiga</th>
+          </tr>
+          <tr>
             <th></th>
             <th></th>
             <th>Pelit</th>

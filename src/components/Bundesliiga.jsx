@@ -21,6 +21,9 @@ export default function Bundesliiga() {
       <table>
         <thead>
           <tr>
+            <th>Bundesliiga</th>
+          </tr>
+          <tr>
             <th></th>
             <th></th>
             <th></th>
