@@ -1,0 +1,23 @@
+header {
+  font-family: "Press Start 2P";
+  padding: 15px;
+}
+
+footer {
+  font-weight: bold;
+  padding: 15px;
+}
+
+th {
+  text-align: center;
+  padding: 3px;
+}
+
+td {
+  text-align: center;
+  padding: 3px;
+}
+
+.vasen {
+  text-align: left;
+}
