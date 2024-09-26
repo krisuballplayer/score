@@ -8,7 +8,7 @@ export default function Bundesliiga() {
   useEffect(() => {
     Axios.get("https://bundesliga-standings.p.rapidapi.com/", {
       headers: {
-        "x-rapidapi-key": "avain",
+        "x-rapidapi-key": avain,
         "x-rapidapi-host": "bundesliga-standings.p.rapidapi.com",
       },
     }).then((res) => {
@@ -21,6 +21,8 @@ export default function Bundesliiga() {
       <table>
         <thead>
           <tr>
+            <th></th>
+            <th></th>
             <th>Bundesliiga</th>
           </tr>
           <tr>

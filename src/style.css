@@ -8,6 +8,10 @@ footer {
   padding: 15px;
 }
 
+table {
+  background-color: lightgray;
+}
+
 th {
   text-align: center;
   padding: 3px;

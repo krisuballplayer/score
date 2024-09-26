@@ -8,7 +8,7 @@ export default function Valioliiga() {
   useEffect(() => {
     Axios.get("https://premier-league18.p.rapidapi.com/teams/standings", {
       headers: {
-        "x-rapidapi-key": "avain",
+        "x-rapidapi-key": avain,
         "x-rapidapi-host": "premier-league18.p.rapidapi.com",
       },
     }).then((res) => {
@@ -21,6 +21,7 @@ export default function Valioliiga() {
       <table>
         <thead>
           <tr>
+            <th></th>
             <th>Valioliiga</th>
           </tr>
           <tr>

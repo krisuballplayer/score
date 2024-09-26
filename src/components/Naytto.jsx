@@ -7,10 +7,10 @@ export default function Naytto() {
       <main>
         <div className="container ">
           <div className="row">
-            <div className="col-xl-6 d-flex justify-content-center bg-light pb-3">
+            <div className="col-xl-6 d-flex justify-content-center pb-3">
               <Bundesliiga />
             </div>
-            <div className="col-xl-6 d-flex justify-content-center bg-light">
+            <div className="col-xl-6 d-flex justify-content-center">
               <Valioliiga />
             </div>
           </div>
